@@ -26,7 +26,8 @@ class Circle {
     return this.radius = circumference/2/pi
   }
   
-  set area() {
-    
+  set area(area) {
+    let pi = Math.PI
+    return this.radius = (area/pi)**(1/2)
   }
 }
