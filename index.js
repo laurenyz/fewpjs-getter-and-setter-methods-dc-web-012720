@@ -21,8 +21,9 @@ class Circle {
     return this.radius = diameter/2
   }
   
-  set circumference() {
-    
+  set circumference(circumference) {
+    let pi = Math.PI
+    return this.radius = circumference/2/pi
   }
   
   // set area() {
