@@ -7,12 +7,9 @@ class Circle {
     return this.radius * 2
   }
   
-  set diameter(diameter) {
-    this.diameter = diameter
-  }
   
   get circumference() {
     let pi = Math.PI
-    return (this.diameter()) * pi
+    return this.radius * 2 * pi
   }
 }
